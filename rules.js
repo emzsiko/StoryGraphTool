@@ -29,7 +29,34 @@ class Location extends Scene {
     handleChoice(choice) {
         if(choice) {
             this.engine.show("> "+ choice);
-            this.engine.gotoScene(Location, choice);
+            this.engine.gotoScene(Interaction, choice);
+        } else {
+            this.engine.gotoScene(End);
+        }
+    }
+}
+
+class Interaction extends Location {
+    create(key) {
+        super.create(key);
+        let locationData = this.engine.storyData.Locations[key]; // TODO: use `key` to get the data object for the current story location
+        /*if(locationData.Investigate === true) {
+            for(let choice of locationData.Investigation) {
+                this.engine.addChoice(choice.Text, choice.Target);
+            }
+        } */
+
+        if(locationData.Investigation && locationData.Investigation.length > 0) { // TODO: check if the location has any Choices
+            for(let option of locationData.Investigation) { // TODO: loop over the location's Choices
+                this.engine.addChoice(option.Text, option.Target); // TODO: use the Text of the choice
+                // TODO: add a useful second argument to addChoice so that the current code of handleChoice below works
+            }
+        }
+    }
+    handleChoice(choice) {
+        if(choice) {
+            this.engine.show("> "+ choice);
+            this.engine.gotoScene(Interaction, choice);
         } else {
             this.engine.gotoScene(End);
         }

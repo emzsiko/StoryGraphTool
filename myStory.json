@@ -1,45 +1,106 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Into the Woods",
+    "Credits": "Created by Em Ishida (eishida@ucsc.edu) with code from Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "Home",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College! They recently built new dorms here.",
+        "Home": {
+            "Body": "Growing up, you could never escape hearing haunting tales of the darkness that plagues the forest beside your house. You have long since know that the woods are a dangerous place, yet today you have been tasked with delivering Mother's freshly baked bread to Granny. The hot summer sun hangs heavy above you, and you only have one choice: to set out on your journey.",
             "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Porter"
+                    "Text": "Head into the woods",
+                    "Target": "Head into the woods"
                 }
             ]
         },
-        "Porter": {
-            "Body": "This is Porter College! There is a koi pond.",
+        "Head into the woods": { 
+            "Body": "You follow the serpentine path carving out a small path through the dense trees around you. Sunlight dances through the canopy above your head, dappling the earth below your feet. Birds chirp quietly in the distance, hiding out of sight within the amongst the rustling leaves. Out of the corner of your eye you catch sight of a shadow darting past you.",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Kresge"
-                },
+                    "Text": "Continue onwards",
+                    "Target": "Continue onwards"
+                }
+            ],
+            "Investigation": [
                 {
-                    "Text": "South",
-                    "Target": "Rachel Carson"
+                    "Text": "Investigate",
+                    "Target": "Investigate the shadow"
                 }
             ]
         },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College! There's nothing interesting here.",
+        "Investigate the shadow": { 
+            "Body": "Just a rabbit.",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Porter"
-                },
-                {
-                    "Text": "South",
-                    "Target": "Oakes"
+                    "Text": "Continue onwards",
+                    "Target": "Continue onwards"
                 }
             ]
         },
-        "Oakes": {
-            "Body": "Oakes College! Very naturey feel.",
+        "Continue onwards": {
+            "Body": "As you push farther into the woods, twisted roots begin to sprout from the ground like gnarled fingers grasping upwards towards your feet. The foliage above your head grows thicker, and the light is growing dimmer. A strange whispering seems to follow you no matter where you go. Peering through the darkness, a faint light appears to blink at you.",
+            "Choices": [
+                {
+                    "Text": "Keep moving forwards",
+                    "Target": "Keep moving forwards"
+                }
+            ],
+            "Investigation": [
+                {
+                    "Text": "Investigate",
+                    "Target": "Investigate the light"
+                }
+            ]
+        },
+        "Investigate the light": { 
+            "Body": "As you walk towards the light, you soon realize that it's a decrepit cabin that has long since been abandoned. Glass litters the floor from the shattered windows, and the old, weathered walls are marred by deep claw marks. The moment you reach the door, the light is suddenly snuffed out, and you are plunged into near complete darkness, with only the last rays of the sun remaining to guide you back to the path.",
+            "Choices": [
+                {
+                    "Text": "Keep moving forwards",
+                    "Target": "Keep moving forwards"
+                }
+            ]
+        },
+        "Keep moving forwards": {
+            "Body": "The woods are overtaken with an eerie transformation as you press forwards, and the shadows from the trees grow long and sinister, their branches sprawling above your head as if they are caging you in. The scent of damp earth and decaying leaves hangs heavy within the air, mixed in with the scent of something vaguely metallic - blood. Glancing to the side, you notice a crimson trail leading off the side of the path. It looks fresh.",
+            "Choices": [
+                {
+                    "Text": "Approach the end",
+                    "Target": "Approach the end"
+                }
+            ],
+            "Investigation": [
+                {
+                    "Text": "Investigate",
+                    "Target": "Investigate the blood"
+                }
+            ]
+        },
+        "Investigate the blood": { 
+            "Body": "Following the trail, you stumbling across a small clearing. The smell of rot hits you first, before you discover the figure of human, lying mangled on the ground. A hunter, it appears, yet they seem to have been bested by the very prey they had been tracking. Off to the side, their supply pack lies discarded, their belongings have scattered everywhere during the fray that took place. You suppose they won't been needing them anymore.",
+            "Choices": [
+                {
+                    "Text": "Turn back to the path",
+                    "Target": "Approach the end"
+                }
+            ],
+            "Investigation": [
+                {
+                    "Text": "Investigate further",
+                    "Target": "Investigate the pack"
+                }
+            ]
+        },
+        "Investigate the pack": { 
+            "Body": "",
+            "Choices": [
+                {
+                    "Text": "Approach the end",
+                    "Target": "Approach the end"
+                }
+            ]
+        },
+        "Approach the end": {
+            "Body": "",
             "Choices": [
                 {
                     "Text": "North",
@@ -49,10 +110,16 @@
                     "Text": "South",
                     "Target": "Beyond"
                 }
+            ],
+            "Investigation": [
+                {
+                    "Text": "Investigate",
+                    "Target": "Investigate the "
+                }
             ]
         },
         "Beyond": {
-            "Body": "Grass! You should probably turn back."
+            "Body": ""
         }
     }
 }
