@@ -113,7 +113,7 @@
             ]
         },
         "Approach the end": {
-            "Body": "",
+            "Body": "Finally, you can see the light of Granny's house at the very end of the path, signaling a reprieve from the dark forest surrounding you. And yet, you cannot help to feel like something is off. A sense of foreboding hangs within the air, and all noise seems to fade away as you approach, leaving only an eerie silence.",
             "Choices": [
                 {
                     "Text": "Enter Granny's house",
@@ -122,7 +122,7 @@
             ]
         },
         "Enter Granny's house": {
-            "Body": "",
+            "Body": "You knock on the front door, only to be met with no response. Testing the handle, you find that it was already unlocked. Strange, you think. Granny was always overly cautious. Stepping into the house, you emerge into the living room. The warm flame that was always kept alight within the fireplace has been snuffed out. Perhaps Granny is sick and resting within her bed.",
             "Choices": [
                 {
                     "Text": "Enter the bedroom",
@@ -131,7 +131,7 @@
             ]
         },
         "Enter the bedroom": {
-            "Body": "",
+            "Body": "The lights are off as you enter the room, but you can barely make out the form of a lone figure lying underneath the sheets of the bed. You suppose it must be Granny, but something within you is nagging at you, letting you know that something about this all seems off. Perhaps it's the fact that the figure in the bed looks a little too large? Shaking the feeling, you clutch your basket holding the fresh bread. Having some good food would surely help make Granny feel better if she's sick.",
             "Choices": [
                 {
                     "Text": "Approach the bedside",
@@ -140,7 +140,7 @@
             ]
         },
         "Approach the bedside": {
-            "Body": "",
+            "Body": "As you walk towards the figure lying prone within the bed, it takes a moment for your eyes to adjust to the darkness. Maybe it's just your imagination, but Granny is sure looking awfully furry. Getting closer, your heart suddenly stops in fear. Your dear Granny has been replaced by a monsterous wolf, its gaping maw stained with fresh blood. Its eyes fly open as you approach, and with a howl, it leaps up from under the covers and lunges towards you. Acting upon your survival instincts, you run towards the first location you spot.",
             "Choices": [
                 {
                     "Text": "Run to the closet",
@@ -149,7 +149,7 @@
             ]
         },
         "Run to the closet": {
-            "Body": "",
+            "Body": "Slamming the closet door behind you, you are only just fast enough to avoid having your arm bitten off by the creature. Breathing heavily, you press against the door with all your weight, trying to keep the beast at bay. Its claws tear at the flimsy wood, and you know that the blockade won't last much longer. You wrack your brain, desperately trying to come up with anything that might save you.",
             "Choices": [
                 {
                     "Text": "...",
@@ -164,16 +164,19 @@
             ]
         },
         "Pull out the rusty knife": {
-            "Body": "",
+            "Body": "Remembering the old knife that you had taken from the hunter's corpse, you quickly pull it out from your basket, gripping it tightly within your hand. You're just in time, as only moments later, the wolf rips the door from its hinges, leaving you uncovered and exposed. Gathering your breath, you lunge forwards, driving the knife into the wolf's heart, before throwing yourself out of the way. With a gutteral howl, the wolf rears back, before collapsing prone onto the ground. You have slain the beast. Pulling yourself up from off the floor, you slowly stand, making your way towards the door. It's probably best that you return home now, and let Mother know about Granny's fate.",
             "Choices": [
                 {
-                    "Text": "...",
-                    "Target": "..."
+                    "Text": "Exit the house",
+                    "Target": "Exit the house"
                 }
             ]
         },
-        "Beyond": {
-            "Body": ""
+        "Exit the house": {
+            "Body": "The walk back home feels rather tame as the adrenaline from earlier leaves your body. You barley escaped with your life by the skin of your teeth, avoiding a fate like that of Granny or the hunter that you had found within the woods. The bread in your basket has gone cold by this point, and you suppose you'd better just eat it. After all, Granny won't be able to anymore."
+        },
+        "...": {
+            "Body": "You are stuck, unable to move and paralyzed with fear, and there's nothing you can do as the beast tears the door from its hinges. You try to dart out of the way, but the wolf smacks you to the ground with its paw, and lunges towards you. It's too late, you realize. Your fate is the same as Granny's."
         }
     }
 }
