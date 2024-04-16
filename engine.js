@@ -8,6 +8,7 @@ class Engine {
 
         this.firstSceneClass = firstSceneClass;
         this.storyDataUrl = storyDataUrl;
+        this.playerInventory = []; // initialize inventory
 
         this.header = document.body.appendChild(document.createElement("h1"));
         this.output = document.body.appendChild(document.createElement("div"));
@@ -49,6 +50,15 @@ class Engine {
         div.innerHTML = msg;
         this.output.appendChild(div);
     }
+
+    addToInventory(item) { // adds item to inventory
+        this.playerInventory.push(item);
+    }
+
+    hasItem(item) { // checks if has item
+        return this.playerInventory.includes(item);
+    }
+
 }
 
 class Scene {

@@ -91,7 +91,20 @@
             ]
         },
         "Investigate the pack": { 
-            "Body": "",
+            "Body": "Littered amongst the contents strewn across the ground you find some bland food rations, and an old rusty knife, hidden within a pocket of the pack. Peering closer at the hunter's body, you notice huge gashes lining the flesh. Whichever creature did this should be avoided at all costs.", 
+            "Choices": [
+                {
+                    "Text": "Turn back to the path",
+                    "Target": "Approach the end"
+                },
+                {
+                    "Text": "Pick up the discarded supplies",
+                    "Target": "Pick up the discarded supplies"
+                }
+            ]
+        },
+        "Pick up the discarded supplies": { 
+            "Body": "You stash the food rations and rusty knife within your basket.", 
             "Choices": [
                 {
                     "Text": "Approach the end",
@@ -103,18 +116,59 @@
             "Body": "",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Rachel Carson"
-                },
+                    "Text": "Enter Granny's house",
+                    "Target": "Enter Granny's house"
+                }
+            ]
+        },
+        "Enter Granny's house": {
+            "Body": "",
+            "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Beyond"
+                    "Text": "Enter the bedroom",
+                    "Target": "Enter the bedroom"
+                }
+            ]
+        },
+        "Enter the bedroom": {
+            "Body": "",
+            "Choices": [
+                {
+                    "Text": "Approach the bedside",
+                    "Target": "Approach the bedside"
+                }
+            ]
+        },
+        "Approach the bedside": {
+            "Body": "",
+            "Choices": [
+                {
+                    "Text": "Run to the closet",
+                    "Target": "Run to the closet"
+                }
+            ]
+        },
+        "Run to the closet": {
+            "Body": "",
+            "Choices": [
+                {
+                    "Text": "...",
+                    "Target": "..."
                 }
             ],
-            "Investigation": [
+            "Locked": [
                 {
-                    "Text": "Investigate",
-                    "Target": "Investigate the "
+                    "Text": "Pull out the rusty knife",
+                    "Target": "Pull out the rusty knife"
+                }
+            ]
+        },
+        "Pull out the rusty knife": {
+            "Body": "",
+            "Choices": [
+                {
+                    "Text": "...",
+                    "Target": "..."
                 }
             ]
         },
