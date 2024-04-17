@@ -13,7 +13,7 @@
             ]
         },
         "Head into the woods": { 
-            "Body": "You follow the serpentine path carving out a small path through the dense trees around you. Sunlight dances through the canopy above your head, dappling the earth below your feet. Birds chirp quietly in the distance, hiding out of sight within the amongst the rustling leaves. Out of the corner of your eye you catch sight of a shadow darting past you.",
+            "Body": "You follow the serpentine path carving out a small road through the dense trees around you. Sunlight dances through the canopy above your head, dappling the earth below your feet. Birds chirp quietly in the distance, hiding out of sight amongst the rustling leaves. Out of the corner of your eye, you catch sight of a shadow darting past you.",
             "Choices": [
                 {
                     "Text": "Continue onwards",
@@ -37,7 +37,7 @@
             ]
         },
         "Continue onwards": {
-            "Body": "As you push farther into the woods, twisted roots begin to sprout from the ground like gnarled fingers grasping upwards towards your feet. The foliage above your head grows thicker, and the light is growing dimmer. A strange whispering seems to follow you no matter where you go. Peering through the darkness, a faint light appears to blink at you.",
+            "Body": "As you push farther into the woods, twisted roots begin to sprout from the ground like gnarled fingers grasping upwards towards your feet. The foliage above your head grows thicker, and the atmosphere is growing dimmer. A strange whispering seems to follow you no matter where you go. Peering through the darkness, a faint light appears to blink at you.",
             "Choices": [
                 {
                     "Text": "Keep moving forwards",
@@ -76,7 +76,7 @@
             ]
         },
         "Investigate the blood": { 
-            "Body": "Following the trail, you stumbling across a small clearing. The smell of rot hits you first, before you discover the figure of human, lying mangled on the ground. A hunter, it appears, yet they seem to have been bested by the very prey they had been tracking. Off to the side, their supply pack lies discarded, their belongings have scattered everywhere during the fray that took place. You suppose they won't been needing them anymore.",
+            "Body": "Following the trail, you stumble across a small clearing. The smell of rot hits you first, before you discover the figure of human, lying mangled on the ground. A hunter, it appears, yet they seem to have been bested by the very prey they had been tracking. Off to the side, their supply pack lies discarded, their belongings having scattered everywhere during the fray that took place. You suppose they won't been needing them anymore.",
             "Choices": [
                 {
                     "Text": "Turn back to the path",
@@ -91,7 +91,7 @@
             ]
         },
         "Investigate the pack": { 
-            "Body": "Littered amongst the contents strewn across the ground you find some bland food rations, and an old rusty knife, hidden within a pocket of the pack. Peering closer at the hunter's body, you notice huge gashes lining the flesh. Whichever creature did this should be avoided at all costs.", 
+            "Body": "Littered amongst the contents strewn across the ground you find some bland food rations and an old rusty knife, hidden within a pocket of the pack. Peering closer at the hunter's body, you notice huge gashes lining the flesh. Whichever creature did this should be avoided at all costs.", 
             "Choices": [
                 {
                     "Text": "Turn back to the path",
@@ -122,7 +122,7 @@
             ]
         },
         "Enter Granny's house": {
-            "Body": "You knock on the front door, only to be met with no response. Testing the handle, you find that it was already unlocked. Strange, you think. Granny was always overly cautious. Stepping into the house, you emerge into the living room. The warm flame that was always kept alight within the fireplace has been snuffed out. Perhaps Granny is sick and resting within her bed.",
+            "Body": "You knock on the front door, only to be met with no response. Testing the handle, you find that it is already unlocked. Strange, you think. Granny was always overly cautious. Stepping into the house, you emerge into the living room. The warm flame that was always kept alight within the fireplace has been snuffed out. Perhaps Granny is sick and resting within her bed.",
             "Choices": [
                 {
                     "Text": "Enter the bedroom",
@@ -131,7 +131,7 @@
             ]
         },
         "Enter the bedroom": {
-            "Body": "The lights are off as you enter the room, but you can barely make out the form of a lone figure lying underneath the sheets of the bed. You suppose it must be Granny, but something within you is nagging at you, letting you know that something about this all seems off. Perhaps it's the fact that the figure in the bed looks a little too large? Shaking the feeling, you clutch your basket holding the fresh bread. Having some good food would surely help make Granny feel better if she's sick.",
+            "Body": "The lights are off as you enter the room, but you can barely make out the form of a lone figure lying underneath the sheets of the bed. You suppose it must be Granny, but something is nagging at you, letting you know that something about this all seems off. Perhaps it's the fact that the figure in the bed looks a little too large? Shaking the feeling, you clutch your basket holding the fresh bread. Having some good food would surely help make Granny feel better if she's sick.",
             "Choices": [
                 {
                     "Text": "Approach the bedside",
@@ -173,10 +173,10 @@
             ]
         },
         "Exit the house": {
-            "Body": "The walk back home feels rather tame as the adrenaline from earlier leaves your body. You barley escaped with your life by the skin of your teeth, avoiding a fate like that of Granny or the hunter that you had found within the woods. The bread in your basket has gone cold by this point, and you suppose you'd better just eat it. After all, Granny won't be able to anymore."
+            "Body": "The walk back home feels rather tame as the adrenaline from earlier leaves your body. You escaped with your life by the skin of your teeth, barely avoiding a fate like that of Granny or the hunter that you found within the woods. The bread in your basket has gone cold by this point, and you suppose you'd better just eat it. After all, Granny sure won't be able to anymore."
         },
         "...": {
-            "Body": "You are stuck, unable to move and paralyzed with fear, and there's nothing you can do as the beast tears the door from its hinges. You try to dart out of the way, but the wolf smacks you to the ground with its paw, and lunges towards you. It's too late, you realize. Your fate is the same as Granny's."
+            "Body": "You are stuck, unable to move and paralyzed with fear, and there's nothing you can do as the beast tears the door from its hinges. You try to dart out of the way, but the wolf smacks you to the ground with its paw, lunging towards you. It's too late, you realize. Your fate is the same as Granny's."
         }
     }
 }
